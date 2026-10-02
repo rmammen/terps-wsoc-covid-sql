@@ -2,10 +2,6 @@
 
 A SQL Server database of University of Maryland Women's Soccer results from the 2019, 2020, and 2021 seasons, built to look at how the team performed before, during, and after the COVID-19 disruption.
 
-Built for BUDT702 (AI Augmented Database Management) with Prof. Adam Lee at the Robert H. Smith School of Business, University of Maryland.
-
-**Team:** Rhea, Bryson Moore, Andrea Jose, Nishtha Patel
-
 ## Why these three seasons
 
 The 2020 season was pushed back by the pandemic and played in the spring, from February 20 to April 8, 2021. It was shorter (12 games instead of 20) and almost entirely conference play. The 2019 season gives a normal baseline, and fall 2021 shows what the return to a regular schedule looked like.
