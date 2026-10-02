@@ -148,35 +148,3 @@ The 2020 spring season had the highest share of scoreless games, and it included
 
 The 2020 season was the low point across almost every measure: no wins, the fewest goals per game, and Maryland was held scoreless in more than half its games. The 2021 season showed a partial recovery in scoring and shots, but the team still had a losing record and didn't return to its 2019 production.
 
-## How to run
-
-The scripts are written for Microsoft SQL Server. Create a database named `BUDT702_Project_0501_01`, then run the files in `sql/` in this order:
-
-1. `BUDT702_Project_0501_01_CREATE.sql` drops and creates the tables
-2. `BUDT702_Project_0501_01_INSERT.sql` loads the data
-3. `BUDT702_Project_0501_01_SELECT.sql` runs the four business questions
-
-To regenerate the Performance inserts from the box scores:
-
-```
-pip install requests beautifulsoup4
-python scripts/build_performance_inserts.py
-```
-
-## Repository structure
-
-```
-covid-wsoc-stats/
-├── README.md
-├── sql/
-│   ├── BUDT702_Project_0501_01_CREATE.sql
-│   ├── BUDT702_Project_0501_01_INSERT.sql
-│   └── BUDT702_Project_0501_01_SELECT.sql
-├── scripts/
-│   └── build_performance_inserts.py
-└── data/
-    └── source/
-        ├── 2019_Wsoc_season_stats.pdf
-        ├── 2020_Wsoc_season_stats.pdf
-        └── 2021_Wsoc_season_stats.pdf
-```
